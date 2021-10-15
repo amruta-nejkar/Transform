@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.top div{
+    height:100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    transform: translate(200px,200px);
+
+} 
+
+.main div{
+    height:100px;
+    width: 100px;
+    margin-left: 50px;
+    background-color:red;
+    border: 1px solid black;
+    transform: rotate(45deg);
+
+}
+
+.section div{
+    height:100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color:chartreuse;
+    border: 1px solid black;
+    transform: skew(20deg,30deg);
+}
